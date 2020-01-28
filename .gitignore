@@ -1,4 +1,6 @@
 *
+!config
+config/*
 !config/*.el
 !init.el
 !.gitignore
