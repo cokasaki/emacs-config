@@ -1,0 +1,11 @@
+# -*- mode: LaTeX -*-
+# name:$$
+# key:$$
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# expand-env ((yas-indent-line 'fixed) (yas-wrap-around-region nil))
+# --
+${1:
+}\[
+$2
+\]
+$0

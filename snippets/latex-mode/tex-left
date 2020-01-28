@@ -1,0 +1,7 @@
+# -*- mode: LaTeX -*-
+# name:left
+# key:left
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\left${1:\(} $2 \right${1:$(match-or-duplicate yas-text)} $0

@@ -1,0 +1,7 @@
+# -*- mode: LaTeX -*-
+# name: independent
+# key: indp
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+{\mbox {$\perp \kern-5.5pt \perp$}}$0

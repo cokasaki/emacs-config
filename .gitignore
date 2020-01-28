@@ -1,6 +1,12 @@
 *
+
 !config
-config/*
 !config/*.el
+
+!snippets
+!snippets/*-mode
+!snippets/*-mode/*
+snippets/*-mode/*[~#+]
+
 !init.el
 !.gitignore

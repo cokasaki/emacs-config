@@ -1,0 +1,7 @@
+# -*- mode: LaTeX -*-
+# name: not independent
+# key: nindp
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\centernot{{\mbox {$\perp \kern-5.5pt \perp$}}}$0

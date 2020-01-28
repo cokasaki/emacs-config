@@ -1,0 +1,9 @@
+# -*- mode: LaTeX -*-
+# name: begin
+# key: begin
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\begin{$1}${2:[$3]}
+$4
+\end{$1}$0

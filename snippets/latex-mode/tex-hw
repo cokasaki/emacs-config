@@ -1,0 +1,28 @@
+# -*- mode: LaTeX -*-
+# name: hw
+# key: hw
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\documentclass[letter, 12pt]{article}
+\usepackage[tmargin=1in,lmargin=1in,rmargin=1in,bmargin=1in,paper=letterpaper]{geometry}
+
+\input{basicpreamble}
+
+\begin{document}
+
+\newcounter{probnum}
+\stepcounter{probnum}
+\newenvironment{problem}[1][]{\begin{framed} \textbf{Problem \theprobnum: #1}}{\end{framed}\stepcounter{probnum}}
+\newenvironment{bookproblem}[1]{\begin{framed} \textbf{Problem #1:}}{\end{framed}\stepcounter{probnum}}
+
+\begin{flushright}
+${1:Colin Okasaki} \\\\
+${2:class} \\\\
+Assignment ${3:#} \\\\
+${4:duesometime}
+\end{flushright}
+
+$0
+
+\end{document}

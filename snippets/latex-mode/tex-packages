@@ -1,0 +1,13 @@
+# -*- mode: LaTeX -*-
+# name: packages
+# key: packages
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{bm}
+\usepackage{bbm}
+
+\newcommand{\der}[3][]{\dfrac{d^{#1} #2}{d #3^{#1}}}
+\newcommand{\pd}[3][]{\dfrac{\partial^{#1} #2}{\partial #3^{#1}}}

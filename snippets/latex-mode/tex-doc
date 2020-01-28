@@ -1,0 +1,23 @@
+# -*- mode: LaTeX -*-
+# name: doc
+# key: doc
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\documentclass[letter, 12pt]{article}
+\usepackage[tmargin=1in,lmargin=1in,rmargin=1in,bmargin=1in,paper=letterpaper]{geometry}
+
+\input{basicpreamble}
+
+\title{${1:title}}
+\author{${2:Colin Okasaki}}
+
+\begin{document}
+\maketitle
+
+$0
+
+\pagebreak
+
+
+\end{document}

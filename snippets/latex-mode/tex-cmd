@@ -1,0 +1,7 @@
+# -*- mode: LaTeX -*-
+# name:cmd
+# key:j 
+# condition: (string= (file-name-extension buffer-file-name) "tex")
+# contributor: Colin Okasaki <colin.okasaki@gmail.com>
+# --
+\\$1{$2}$0
