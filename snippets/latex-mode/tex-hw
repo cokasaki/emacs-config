@@ -1,13 +1,25 @@
 # -*- mode: LaTeX -*-
 # name: hw
 # key: hw
-# condition: (string= (file-name-extension buffer-file-name) "tex")
 # contributor: Colin Okasaki <colin.okasaki@gmail.com>
 # --
 \documentclass[letter, 12pt]{article}
 \usepackage[tmargin=1in,lmargin=1in,rmargin=1in,bmargin=1in,paper=letterpaper]{geometry}
 
-\input{basicpreamble}
+\usepackage{mathtools}
+\usepackage{mathrsfs}
+\usepackage{framed}
+\usepackage{enumerate}
+\usepackage{bm}
+\usepackage{amsfonts}
+
+\newcommand{\der}[3][]{\dfrac{d^{#1} #2}{d #3^{#1}}}
+\newcommand{\pd}[3][]{\dfrac{\partial^{#1} #2}{\partial #3^{#1}}}
+
+\def\var{\mbox{var}}
+\def\cov{\mbox{cov}}
+\def\E{\mbox{E}}
+
 
 \begin{document}
 
