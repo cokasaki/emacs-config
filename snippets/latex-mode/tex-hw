@@ -15,6 +15,7 @@
 
 \newcommand{\der}[3][]{\dfrac{d^{#1} #2}{d #3^{#1}}}
 \newcommand{\pd}[3][]{\dfrac{\partial^{#1} #2}{\partial #3^{#1}}}
+\newcommand{\mpd}[2][]{\dfrac{\partial #1}{\partial #2}}
 
 \def\var{\mbox{var}}
 \def\cov{\mbox{cov}}
